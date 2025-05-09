@@ -1,0 +1,16 @@
+flask
+flask-cors
+python-dotenv
+
+crewai
+crewai-tools
+
+# These are for your custom tools, if they use them:
+requests
+beautifulsoup4
+lxml
+
+# Render recommends Gunicorn as the production WSGI server
+gunicorn
+
+# If you use any other libraries in web_scraper.py or write_tool.py, add them here.
